@@ -18,9 +18,9 @@ document.getElementById('form-btn').addEventListener('click', function(){
 
     //step-4: verify email and password;
     if(email === 'sontan@baap.com' && pass === 'secret'){
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('Not a Valid User;')
+        alert("You've forgotten your password my guy.");
     }
 })
